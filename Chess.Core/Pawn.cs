@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ChessPieces_3
+namespace ChessCore
 {
     class Pawn : Piece
     {

@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ChessPiece_4WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="468" Width="462">
+        Title="MainWindow" Height="500" Width="500
+        ">
     <Window.Resources>
         <Style x:Key="ButtonForegroundStyle">
             <Setter Property="Button.Foreground" Value="#00000000" />
@@ -13,106 +14,109 @@
     </Window.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="37*"/>
+            <ColumnDefinition Width="402*"/>
+            <ColumnDefinition Width="61*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition/>
+            <RowDefinition Height="215*"/>
+            <RowDefinition Height="27*"/>
         </Grid.RowDefinitions>
-        <Button Content="A8" HorizontalAlignment="Left" Margin="65,46,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="B8" HorizontalAlignment="Left" Margin="108,46,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="C8" HorizontalAlignment="Left" Margin="151,46,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="D8" HorizontalAlignment="Left" Margin="194,46,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="E8" HorizontalAlignment="Left" Margin="237,46,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="F8" HorizontalAlignment="Left" Margin="280,46,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="G8" HorizontalAlignment="Left" Margin="323,46,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="H8" HorizontalAlignment="Left" Margin="366,46,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="A7" HorizontalAlignment="Left" Margin="65,90,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="B7" HorizontalAlignment="Left" Margin="108,90,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="C7" HorizontalAlignment="Left" Margin="151,90,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="D7" HorizontalAlignment="Left" Margin="194,90,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="E7" HorizontalAlignment="Left" Margin="237,90,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="F7" HorizontalAlignment="Left" Margin="280,90,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="G7" HorizontalAlignment="Left" Margin="323,90,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="H7" HorizontalAlignment="Left" Margin="366,90,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="A6" HorizontalAlignment="Left" Margin="65,134,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="6B" HorizontalAlignment="Left" Margin="108,134,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="6C" HorizontalAlignment="Left" Margin="151,134,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="6D" HorizontalAlignment="Left" Margin="194,134,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="6E" HorizontalAlignment="Left" Margin="237,134,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="6F" HorizontalAlignment="Left" Margin="280,134,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="6G" HorizontalAlignment="Left" Margin="323,134,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="6H" HorizontalAlignment="Left" Margin="366,134,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="A5" HorizontalAlignment="Left" Margin="65,178,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="B5" HorizontalAlignment="Left" Margin="108,178,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="C5" HorizontalAlignment="Left" Margin="151,178,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="D5" HorizontalAlignment="Left" Margin="194,178,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="E5" HorizontalAlignment="Left" Margin="237,178,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="F5" HorizontalAlignment="Left" Margin="280,178,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="G5" HorizontalAlignment="Left" Margin="323,178,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="H5" HorizontalAlignment="Left" Margin="366,178,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="A4" HorizontalAlignment="Left" Margin="65,221,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="B5" HorizontalAlignment="Left" Margin="108,221,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="C4" HorizontalAlignment="Left" Margin="151,221,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="D4" HorizontalAlignment="Left" Margin="194,221,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="E4" HorizontalAlignment="Left" Margin="237,221,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="F4" HorizontalAlignment="Left" Margin="280,221,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="G4" HorizontalAlignment="Left" Margin="323,221,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="H4" HorizontalAlignment="Left" Margin="366,221,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="A3" HorizontalAlignment="Left" Margin="65,266,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="B3" HorizontalAlignment="Left" Margin="108,266,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="C4" HorizontalAlignment="Left" Margin="151,266,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="D3" HorizontalAlignment="Left" Margin="194,266,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="E3" HorizontalAlignment="Left" Margin="237,266,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="F3" HorizontalAlignment="Left" Margin="280,266,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="G3" HorizontalAlignment="Left" Margin="323,266,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="H3" HorizontalAlignment="Left" Margin="366,266,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="A2" HorizontalAlignment="Left" Margin="65,310,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Style="{StaticResource ButtonForegroundStyle}"/>
-        <Button Content="B2" HorizontalAlignment="Left" Margin="108,310,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="C2" HorizontalAlignment="Left" Margin="151,310,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="D2" HorizontalAlignment="Left" Margin="194,310,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="E2" HorizontalAlignment="Left" Margin="237,310,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="F2" HorizontalAlignment="Left" Margin="280,310,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Style="{StaticResource ButtonForegroundStyle}" />
-        <Button Content="G2" HorizontalAlignment="Left" Margin="323,310,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="H2" HorizontalAlignment="Left" Margin="366,310,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="A1" HorizontalAlignment="Left" Margin="65,354,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="B1" HorizontalAlignment="Left" Margin="108,354,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Style="{StaticResource ButtonForegroundStyle}"/>
-        <Button Content="C1" HorizontalAlignment="Left" Margin="151,354,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="D1" HorizontalAlignment="Left" Margin="194,354,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="E1" HorizontalAlignment="Left" Margin="237,354,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="F1" HorizontalAlignment="Left" Margin="280,354,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Button Content="G1" HorizontalAlignment="Left" Margin="323,354,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000"/>
-        <Button Content="H1" HorizontalAlignment="Left" Margin="366,354,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000"/>
-        <Label Content="8" HorizontalAlignment="Left" Margin="41,50,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="7" HorizontalAlignment="Left" Margin="41,94,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="6" HorizontalAlignment="Left" Margin="41,139,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="5" HorizontalAlignment="Left" Margin="41,182,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="4" HorizontalAlignment="Left" Margin="41,225,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="3" HorizontalAlignment="Left" Margin="41,270,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="2" HorizontalAlignment="Left" Margin="41,314,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="1" HorizontalAlignment="Left" Margin="41,358,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="8" HorizontalAlignment="Left" Margin="409,50,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="7" HorizontalAlignment="Left" Margin="409,94,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="6" HorizontalAlignment="Left" Margin="409,139,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="5" HorizontalAlignment="Left" Margin="409,182,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="4" HorizontalAlignment="Left" Margin="409,225,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="3" HorizontalAlignment="Left" Margin="409,270,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="2" HorizontalAlignment="Left" Margin="409,314,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="1" HorizontalAlignment="Left" Margin="409,358,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="A" HorizontalAlignment="Left" Margin="73,14,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="B" HorizontalAlignment="Left" Margin="116,14,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="C" HorizontalAlignment="Left" Margin="158,14,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="D" HorizontalAlignment="Left" Margin="201,14,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="E" HorizontalAlignment="Left" Margin="244,14,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="F" HorizontalAlignment="Left" Margin="288,14,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="G" HorizontalAlignment="Left" Margin="331,14,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="H" HorizontalAlignment="Left" Margin="373,14,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="17" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="A" HorizontalAlignment="Left" Margin="73,398,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="B" HorizontalAlignment="Left" Margin="116,398,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="C" HorizontalAlignment="Left" Margin="158,398,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="D" HorizontalAlignment="Left" Margin="201,398,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="E" HorizontalAlignment="Left" Margin="244,398,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="F" HorizontalAlignment="Left" Margin="288,398,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="G" HorizontalAlignment="Left" Margin="331,398,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184"/>
-        <Label Content="H" HorizontalAlignment="Left" Margin="373,398,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="17" RenderTransformOrigin="1.309,0.184"/>
+        <Button Content="A8" HorizontalAlignment="Left" Margin="28,46,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="B8" HorizontalAlignment="Left" Margin="71,46,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="C8" HorizontalAlignment="Left" Margin="114,46,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="D8" HorizontalAlignment="Left" Margin="157,46,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="E8" HorizontalAlignment="Left" Margin="200,46,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="F8" HorizontalAlignment="Left" Margin="243,46,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="G8" HorizontalAlignment="Left" Margin="286,46,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="H8" HorizontalAlignment="Left" Margin="329,46,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="A7" HorizontalAlignment="Left" Margin="28,90,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="B7" HorizontalAlignment="Left" Margin="71,90,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="C7" HorizontalAlignment="Left" Margin="114,90,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="D7" HorizontalAlignment="Left" Margin="157,90,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="E7" HorizontalAlignment="Left" Margin="200,90,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="F7" HorizontalAlignment="Left" Margin="243,90,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="G7" HorizontalAlignment="Left" Margin="286,90,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="H7" HorizontalAlignment="Left" Margin="329,90,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="A6" HorizontalAlignment="Left" Margin="28,134,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="6B" HorizontalAlignment="Left" Margin="71,134,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="6C" HorizontalAlignment="Left" Margin="114,134,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="6D" HorizontalAlignment="Left" Margin="157,134,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="6E" HorizontalAlignment="Left" Margin="200,134,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="6F" HorizontalAlignment="Left" Margin="243,134,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="6G" HorizontalAlignment="Left" Margin="286,134,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="6H" HorizontalAlignment="Left" Margin="329,134,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="A5" HorizontalAlignment="Left" Margin="28,178,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="B5" HorizontalAlignment="Left" Margin="71,178,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="C5" HorizontalAlignment="Left" Margin="114,178,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="D5" HorizontalAlignment="Left" Margin="157,178,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="E5" HorizontalAlignment="Left" Margin="200,178,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="F5" HorizontalAlignment="Left" Margin="243,178,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="G5" HorizontalAlignment="Left" Margin="286,178,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="H5" HorizontalAlignment="Left" Margin="329,178,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="A4" HorizontalAlignment="Left" Margin="28,221,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="B5" HorizontalAlignment="Left" Margin="71,221,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="C4" HorizontalAlignment="Left" Margin="114,221,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="D4" HorizontalAlignment="Left" Margin="157,221,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="E4" HorizontalAlignment="Left" Margin="200,221,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="F4" HorizontalAlignment="Left" Margin="243,221,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="G4" HorizontalAlignment="Left" Margin="286,221,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="H4" HorizontalAlignment="Left" Margin="329,221,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="A3" HorizontalAlignment="Left" Margin="28,266,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="B3" HorizontalAlignment="Left" Margin="71,266,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="C4" HorizontalAlignment="Left" Margin="114,266,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="D3" HorizontalAlignment="Left" Margin="157,266,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="E3" HorizontalAlignment="Left" Margin="200,266,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="F3" HorizontalAlignment="Left" Margin="243,266,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="G3" HorizontalAlignment="Left" Margin="286,266,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="H3" HorizontalAlignment="Left" Margin="329,266,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="A2" HorizontalAlignment="Left" Margin="28,310,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Style="{StaticResource ButtonForegroundStyle}" Grid.Column="1"/>
+        <Button Content="B2" HorizontalAlignment="Left" Margin="71,310,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="C2" HorizontalAlignment="Left" Margin="114,310,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="D2" HorizontalAlignment="Left" Margin="157,310,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="E2" HorizontalAlignment="Left" Margin="200,310,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="F2" HorizontalAlignment="Left" Margin="243,310,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Style="{StaticResource ButtonForegroundStyle}" Grid.Column="1" />
+        <Button Content="G2" HorizontalAlignment="Left" Margin="286,310,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="H2" HorizontalAlignment="Left" Margin="329,310,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="A1" HorizontalAlignment="Left" Margin="28,354,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="B1" HorizontalAlignment="Left" Margin="71,354,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Style="{StaticResource ButtonForegroundStyle}" Grid.Column="1"/>
+        <Button Content="C1" HorizontalAlignment="Left" Margin="114,354,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="D1" HorizontalAlignment="Left" Margin="157,354,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="E1" HorizontalAlignment="Left" Margin="200,354,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="F1" HorizontalAlignment="Left" Margin="243,354,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="G1" HorizontalAlignment="Left" Margin="286,354,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FF964B00" Foreground="#00000000" Grid.Column="1"/>
+        <Button Content="H1" HorizontalAlignment="Left" Margin="329,354,0,0" VerticalAlignment="Top" Height="39" Width="39" Background="#FFFFF4E8" Foreground="#00000000" Grid.Column="1"/>
+        <Label Content="8" HorizontalAlignment="Left" Margin="4,50,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="7" HorizontalAlignment="Left" Margin="4,94,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="6" HorizontalAlignment="Left" Margin="4,139,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="5" HorizontalAlignment="Left" Margin="4,182,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="4" HorizontalAlignment="Left" Margin="4,225,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="3" HorizontalAlignment="Left" Margin="4,270,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="2" HorizontalAlignment="Left" Margin="4,314,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="1" HorizontalAlignment="Left" Margin="4,358,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="8" HorizontalAlignment="Left" Margin="372,50,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="7" HorizontalAlignment="Left" Margin="372,94,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="6" HorizontalAlignment="Left" Margin="372,139,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="5" HorizontalAlignment="Left" Margin="372,182,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="4" HorizontalAlignment="Left" Margin="372,225,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="3" HorizontalAlignment="Left" Margin="372,270,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="2" HorizontalAlignment="Left" Margin="372,314,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="1" HorizontalAlignment="Left" Margin="372,358,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="A" HorizontalAlignment="Left" Margin="36,14,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="B" HorizontalAlignment="Left" Margin="79,14,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="C" HorizontalAlignment="Left" Margin="121,14,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="D" HorizontalAlignment="Left" Margin="164,14,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="E" HorizontalAlignment="Left" Margin="207,14,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="F" HorizontalAlignment="Left" Margin="251,14,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="G" HorizontalAlignment="Left" Margin="294,14,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="H" HorizontalAlignment="Left" Margin="336,14,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="17" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="A" HorizontalAlignment="Left" Margin="36,398,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="B" HorizontalAlignment="Left" Margin="79,398,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="C" HorizontalAlignment="Left" Margin="121,398,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="D" HorizontalAlignment="Left" Margin="164,398,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="E" HorizontalAlignment="Left" Margin="207,398,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="F" HorizontalAlignment="Left" Margin="251,398,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="G" HorizontalAlignment="Left" Margin="294,398,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
+        <Label Content="H" HorizontalAlignment="Left" Margin="336,398,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="17" RenderTransformOrigin="1.309,0.184" Grid.Column="1"/>
     </Grid>
 </Window>

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ChessPieces_3
+namespace ChessCore
 {
     class Queen : Piece
     {
@@ -16,8 +16,9 @@ namespace ChessPieces_3
         {
             int posX2 = board[move[0].ToString()] + 1;
             int posY2 = board[move[1].ToString()] + 1;
-            
-            return Math.Abs(posXfirst-posX2) == Math.Abs(posYfirst-posY2) || posYfirst == posY2 || posXfirst == posX2;
+
+            return (Math.Abs(posXfirst - posX2) == Math.Abs(posYfirst - posY2) || posYfirst == posY2 || posXfirst == posX2)
+                   && chessBoard[posY2 - 1, posX2 - 1] == "  ";
         }
 
         public override void Move(string move)
