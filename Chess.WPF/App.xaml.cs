@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Chess.WPF
+namespace ChessPiece_4WPF
 {
     /// <summary>
     /// Interaction logic for App.xaml

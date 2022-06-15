@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Chess.WPF
+namespace ChessPiece_4WPF
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -24,5 +24,6 @@ namespace Chess.WPF
         {
             InitializeComponent();
         }
+
     }
 }
