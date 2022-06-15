@@ -19,11 +19,12 @@ namespace ChessPieces_3
         {
             int posX2 = board[move[0].ToString()] + 1;
             int posY2 = board[move[1].ToString()] + 1;
-            
-            return Math.Abs(posXfirst-posX2) == 2 && Math.Abs(posYfirst-posY2) == 1 
-                   || Math.Abs(posXfirst-posX2) == 1 && Math.Abs(posYfirst-posY2) == 2
-                   || Math.Abs(posXsecond-posX2) == 2 && Math.Abs(posYsecond-posY2) == 1 
-                   || Math.Abs(posXsecond-posX2) == 1 && Math.Abs(posYsecond-posY2) == 2;
+
+            return (Math.Abs(posXfirst - posX2) == 2 && Math.Abs(posYfirst - posY2) == 1
+                   || Math.Abs(posXfirst - posX2) == 1 && Math.Abs(posYfirst - posY2) == 2
+                   || Math.Abs(posXsecond - posX2) == 2 && Math.Abs(posYsecond - posY2) == 1
+                   || Math.Abs(posXsecond - posX2) == 1 && Math.Abs(posYsecond - posY2) == 2)
+                   && chessBoard[posY2 - 1, posX2 - 1] == "  ";
         }
         
         public override void Move(string move)

@@ -17,9 +17,10 @@ namespace ChessPieces_3
         {
             int posX2 = board[move[0].ToString()] + 1;
             int posY2 = board[move[1].ToString()] + 1;
-            
-            return posYfirst == 2 && posY2-posYfirst == posYfirst && posXfirst == posX2 && posYfirst != 1 && 
-                posY2 != 1 || posY2-posYfirst == 1 && posXfirst == posX2 && posYfirst != 1 && posY2 != 1;
+
+            return (posYfirst == 2 && posY2 - posYfirst == posYfirst && posXfirst == posX2 && posYfirst != 1 &&
+                posY2 != 1 || posY2 - posYfirst == 1 && posXfirst == posX2 && posYfirst != 1 && posY2 != 1)
+                   && chessBoard[posY2 - 1, posX2 - 1] == "  ";
         }
         
         public override void Move(string move)
