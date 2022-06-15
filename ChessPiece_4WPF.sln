@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-<<<<<<< HEAD
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "..\Core\Core.csproj", "{0058214D-D14E-49A6-B493-0AA80DFB212C}"
-=======
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessPiece_4WPF", "ChessPiece_4WPF.csproj", "{B62E9D4E-C0FC-4854-A464-BDA6C8842777}"
->>>>>>> WPF-representation
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chess.Core", "Chess.Core\Chess.Core.csproj", "{89708643-D5DF-4556-874C-E3D8D5150A88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0058214D-D14E-49A6-B493-0AA80DFB212C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0058214D-D14E-49A6-B493-0AA80DFB212C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0058214D-D14E-49A6-B493-0AA80DFB212C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0058214D-D14E-49A6-B493-0AA80DFB212C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89708643-D5DF-4556-874C-E3D8D5150A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89708643-D5DF-4556-874C-E3D8D5150A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89708643-D5DF-4556-874C-E3D8D5150A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89708643-D5DF-4556-874C-E3D8D5150A88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
